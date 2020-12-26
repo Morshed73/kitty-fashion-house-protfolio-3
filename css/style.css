@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: font-family: 'Roboto', sans-serif;
+}
+/* header */
+.header{
+	background-color: rgb(56, 197, 185);
+	height: 600px;
+	height: 100%;
+}
+/* navbar */
+.nav-link:hover{
+	background-color: #ffffff;
+	font-size: 130%;
+}
+.nav-link:active{ 
+	background-color: rgba(56, 197, 185, 0.5);
+	font-size: 130%;
+}
+.nav-link:visited{ 
+	color: #ffffff;
+	font-size: 130%;
+}
+/* banner */
+.banner-heading{
+	text-align: center;
+	color: #ffffff;
+	margin-top: 100px;
+}
+.main-heading{
+	font-size: 60px;
+}
+.heading-info{
+	font-size: 30px;
+}
+/* about */
+.about-heading{
+	text-align: center;
+	font-size: 40px;
+}
+.about-img{
+	height: auto;
+	width: 350px;
+	display: block;
+	margin: auto;
+	padding: 15px;
+}
+.about-inner{
+	border-left: 2px solid rgb(56, 197, 185);
+	padding: 15px;
+}
+.about-inner-heading{
+	font-size: 30px;
+}
+.about-inner-info{
+	font-size: 20px;
+	text-align: justify;
+}
+/* blog */
+.blog{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.blog-heading{
+	text-align: center;
+	font-size: 40px;
+}
+.blog-img, .blog-inner{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: justify;
+	font-size: 18px;
+}
+.upload-date ul li{
+	list-style-type: none;
+	color:  rgb(56, 197, 185);
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 18px;
+	margin-top: 1rem;
+}
+.more-blog{
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	line-height: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.more-blog a{
+	text-decoration: none;
+	color: #000000;
+}
+.more-blog a:hover{
+	font-size: 120%;
+}
+/* comment 
+.commet-form .comment-control{
+	outline: none;
+	border: 3px solid;
+} */
+/* footer */
+.footer{
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A8A8A8;
+}
+.footer-heading{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 25px;
+	color: #ffffff;
+}
+.footer-list ul li{
+	list-style-type: none;
+	line-height: 35px;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+.footer-list ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.footer-list ul li a:hover{
+	color: #000000;
+	font-size: 120%;
+}
+.footer-copyright{
+	background-color: #ffffff;
+	color: rgb(121, 110, 110);
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+/********* men page *********/
+
+
+/* left menu */
+.main-menu{
+	margin-top: 80px;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.left-menu-heading, .left-menu-heading2{
+	text-align: center;
+	border-bottom: 1px dashed rgb(126, 121, 121);
+	line-height: 50px;
+}
+.left-menu .catagori-list ul li, .left-menu .brand-list ul li{
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 40px;
+}
+.left-menu .catagori-list ul li:hover, .left-menu .brand-list ul li:hover{
+	background-color: rgb(241, 241, 241);
+	color: #ffffff;
+	font-size: 150%;
+}
+.left-menu .catagori-list ul li a, .left-menu .brand-list ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+/* product section */
+.new-collection-heading{
+	text-align: center;
+	border-bottom: 1px dashed rgb(126, 121, 121);
+	line-height: 50px;
+}
+.new-item{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid;
+	height: 410px;
+	width: 300px;
+}
+.new-item img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 297px;
+    min-height: 270px;
+}
+.new-item-info{
+	text-align: center;
+	display: block;
+}
+.new-item-info{
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.new-item-info a{
+	text-decoration: none;
+}
+.new-item-info .Buy-button{
+	height: 40px;
+	width: 290px;
+	border: none;
+	outline: none;
+	background-color: #38C5B9;
+}
+.new-item-info .Buy-button:hover{
+	font-size: 120%;
+}
+.more-cullection{
+	font-size: 20px;
+	text-align: center;
+	background-color: rgb(241, 241, 241);
+	margin-bottom: 25px;
+}
+.more-cullection a{
+	text-decoration: none;
+	color: #000000;
+}
+.more-cullection a:hover{
+	font-size: 120%;
+}
